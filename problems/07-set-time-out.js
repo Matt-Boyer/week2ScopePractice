@@ -18,7 +18,15 @@ funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
 
 ***********************************************************************/
 
-// Your code here
+let funcTimer = function(time, partyFunc) {
+   setTimeout(partyFunc, time);
+}
+
+
+
+
+  // setTimeout(() => {console.log("this is the second message")}, 3000);
+  // setTimeout(() => {console.log("this is the third message")}, 1000);
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
